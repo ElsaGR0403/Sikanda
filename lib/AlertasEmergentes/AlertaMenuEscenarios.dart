@@ -52,6 +52,7 @@ class Instruccion extends State<Escenario> {
           child: SizedBox(height: 1000, child: Menu()),
         ));
   }
+  //Muestra el mensaje de las instrucciones
   Future<void> _showMyDialog() async {
     AudioCache cache;
     cache = AudioCache(fixedPlayer: reproduceInstrucciones);

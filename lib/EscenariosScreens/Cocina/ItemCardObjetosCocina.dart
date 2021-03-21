@@ -6,6 +6,7 @@ import 'package:rompecabezas_sika/Juegos/Rompecabezas.dart';
 import '../../Audio.dart';
 import '../../Constantes.dart';
 import '../../InfoObjetosEscenario/Cocina.dart';
+
 class ItemCardCocina extends StatelessWidget {
   final Cocina cocina;
   final Function press;
